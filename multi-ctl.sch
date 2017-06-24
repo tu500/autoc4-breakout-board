@@ -1,0 +1,176 @@
+EESchema Schematic File Version 2
+LIBS:own
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:autoc4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3775 1950 525  350 
+U 59248277
+F0 "CA1" 60
+F1 "ctl.sch" 60
+F2 "VCC" I L 3775 2025 60 
+F3 "CTL2" I L 3775 2125 60 
+F4 "CTL1" I L 3775 2225 60 
+$EndSheet
+$Sheet
+S 3775 2525 525  350 
+U 59248285
+F0 "CA2" 60
+F1 "ctl.sch" 60
+F2 "VCC" I L 3775 2600 60 
+F3 "CTL2" I L 3775 2700 60 
+F4 "CTL1" I L 3775 2800 60 
+$EndSheet
+$Sheet
+S 3775 3075 525  350 
+U 59248293
+F0 "CA3" 60
+F1 "ctl.sch" 60
+F2 "VCC" I L 3775 3150 60 
+F3 "CTL2" I L 3775 3250 60 
+F4 "CTL1" I L 3775 3350 60 
+$EndSheet
+$Sheet
+S 3775 3625 525  350 
+U 592482A1
+F0 "CA4" 60
+F1 "ctl.sch" 60
+F2 "VCC" I L 3775 3700 60 
+F3 "CTL2" I L 3775 3800 60 
+F4 "CTL1" I L 3775 3900 60 
+$EndSheet
+$Sheet
+S 3775 4175 525  350 
+U 592482AF
+F0 "CA5" 60
+F1 "ctl.sch" 60
+F2 "VCC" I L 3775 4250 60 
+F3 "CTL2" I L 3775 4350 60 
+F4 "CTL1" I L 3775 4450 60 
+$EndSheet
+$Sheet
+S 3775 4725 525  350 
+U 592482BD
+F0 "CA6" 60
+F1 "ctl.sch" 60
+F2 "VCC" I L 3775 4800 60 
+F3 "CTL2" I L 3775 4900 60 
+F4 "CTL1" I L 3775 5000 60 
+$EndSheet
+$Sheet
+S 3775 5275 525  350 
+U 592482CB
+F0 "CA7" 60
+F1 "ctl.sch" 60
+F2 "VCC" I L 3775 5350 60 
+F3 "CTL2" I L 3775 5450 60 
+F4 "CTL1" I L 3775 5550 60 
+$EndSheet
+$Sheet
+S 3775 5825 525  350 
+U 592482D9
+F0 "CA8" 60
+F1 "ctl.sch" 60
+F2 "VCC" I L 3775 5900 60 
+F3 "CTL2" I L 3775 6000 60 
+F4 "CTL1" I L 3775 6100 60 
+$EndSheet
+$Comp
+L GS2 J60
+U 1 1 59254676
+P 3175 2025
+F 0 "J60" H 3275 2175 50  0000 C CNN
+F 1 "GS2" H 3275 1876 50  0000 C CNN
+F 2 "Connectors:GS2" V 3249 2025 50  0001 C CNN
+F 3 "" H 3175 2025 50  0001 C CNN
+	1    3175 2025
+	0    1    1    0   
+$EndComp
+Text HLabel 2975 2025 0    60   Input ~ 0
+VCC
+Entry Wire Line
+	3000 6100 3100 6200
+Text Label 3000 6100 2    60   ~ 0
+CA1_8
+Wire Wire Line
+	3775 2025 3375 2025
+Wire Wire Line
+	3375 2025 3375 5900
+Wire Wire Line
+	3375 5900 3775 5900
+Wire Wire Line
+	3775 5350 3375 5350
+Connection ~ 3375 5350
+Wire Wire Line
+	3775 4800 3375 4800
+Connection ~ 3375 4800
+Wire Wire Line
+	3775 4250 3375 4250
+Connection ~ 3375 4250
+Wire Wire Line
+	3775 3700 3375 3700
+Connection ~ 3375 3700
+Wire Wire Line
+	3775 3150 3375 3150
+Connection ~ 3375 3150
+Wire Wire Line
+	3775 2600 3375 2600
+Connection ~ 3375 2600
+Wire Wire Line
+	3000 6100 3775 6100
+Wire Wire Line
+	3775 5550 3000 5550
+Entry Wire Line
+	3000 5550 3100 5650
+Text Label 3000 5550 2    60   ~ 0
+CA1_7
+Wire Bus Line
+	3100 5650 3100 6400
+Text Label 3100 6400 0    60   ~ 0
+CA1_[7..8]
+Text HLabel 2525 6400 0    60   Input ~ 0
+FOOBAR
+Wire Bus Line
+	3100 6400 2525 6400
+$EndSCHEMATC

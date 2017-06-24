@@ -1,0 +1,221 @@
+EESchema Schematic File Version 2
+LIBS:own
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:autoc4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 18 25
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X04 J94
+U 1 1 592AB17B
+P 2450 2425
+AR Path="/592A76E3/592AB17B" Ref="J94"  Part="1" 
+AR Path="/592B2E53/592AB17B" Ref="J97"  Part="1" 
+AR Path="/592B739F/592AB17B" Ref="J100"  Part="1" 
+AR Path="/592B73A3/592AB17B" Ref="J103"  Part="1" 
+AR Path="/592C46C7/592AB17B" Ref="J106"  Part="1" 
+AR Path="/592C46CB/592AB17B" Ref="J109"  Part="1" 
+AR Path="/592C46CF/592AB17B" Ref="J112"  Part="1" 
+AR Path="/592C46D3/592AB17B" Ref="J115"  Part="1" 
+F 0 "J115" H 2450 2675 50  0000 C CNN
+F 1 "CONN_01X04" V 2550 2425 50  0000 C CNN
+F 2 "ownlib:PSG_Straight_04" H 2450 2425 50  0001 C CNN
+F 3 "" H 2450 2425 50  0001 C CNN
+	1    2450 2425
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 J95
+U 1 1 592AB239
+P 3700 2425
+AR Path="/592A76E3/592AB239" Ref="J95"  Part="1" 
+AR Path="/592B2E53/592AB239" Ref="J98"  Part="1" 
+AR Path="/592B739F/592AB239" Ref="J101"  Part="1" 
+AR Path="/592B73A3/592AB239" Ref="J104"  Part="1" 
+AR Path="/592C46C7/592AB239" Ref="J107"  Part="1" 
+AR Path="/592C46CB/592AB239" Ref="J110"  Part="1" 
+AR Path="/592C46CF/592AB239" Ref="J113"  Part="1" 
+AR Path="/592C46D3/592AB239" Ref="J116"  Part="1" 
+F 0 "J116" H 3700 2675 50  0000 C CNN
+F 1 "CONN_01X04" V 3800 2425 50  0000 C CNN
+F 2 "ownlib:PSG_Straight_04" H 3700 2425 50  0001 C CNN
+F 3 "" H 3700 2425 50  0001 C CNN
+	1    3700 2425
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR0118
+U 1 1 592AB2E7
+P 2725 2725
+AR Path="/592A76E3/592AB2E7" Ref="#PWR0118"  Part="1" 
+AR Path="/592B2E53/592AB2E7" Ref="#PWR0122"  Part="1" 
+AR Path="/592B739F/592AB2E7" Ref="#PWR0126"  Part="1" 
+AR Path="/592B73A3/592AB2E7" Ref="#PWR0130"  Part="1" 
+AR Path="/592C46C7/592AB2E7" Ref="#PWR0134"  Part="1" 
+AR Path="/592C46CB/592AB2E7" Ref="#PWR0138"  Part="1" 
+AR Path="/592C46CF/592AB2E7" Ref="#PWR0142"  Part="1" 
+AR Path="/592C46D3/592AB2E7" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 2725 2475 50  0001 C CNN
+F 1 "GND" H 2725 2575 50  0000 C CNN
+F 2 "" H 2725 2725 50  0001 C CNN
+F 3 "" H 2725 2725 50  0001 C CNN
+	1    2725 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2375 2725 2375
+Wire Wire Line
+	2725 2375 2725 2725
+Wire Wire Line
+	2650 2575 2725 2575
+Connection ~ 2725 2575
+$Comp
+L GND #PWR0119
+U 1 1 592AB33C
+P 3975 2725
+AR Path="/592A76E3/592AB33C" Ref="#PWR0119"  Part="1" 
+AR Path="/592B2E53/592AB33C" Ref="#PWR0123"  Part="1" 
+AR Path="/592B739F/592AB33C" Ref="#PWR0127"  Part="1" 
+AR Path="/592B73A3/592AB33C" Ref="#PWR0131"  Part="1" 
+AR Path="/592C46C7/592AB33C" Ref="#PWR0135"  Part="1" 
+AR Path="/592C46CB/592AB33C" Ref="#PWR0139"  Part="1" 
+AR Path="/592C46CF/592AB33C" Ref="#PWR0143"  Part="1" 
+AR Path="/592C46D3/592AB33C" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 3975 2475 50  0001 C CNN
+F 1 "GND" H 3975 2575 50  0000 C CNN
+F 2 "" H 3975 2725 50  0001 C CNN
+F 3 "" H 3975 2725 50  0001 C CNN
+	1    3975 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2575 3975 2575
+Wire Wire Line
+	3975 2575 3975 2725
+Wire Wire Line
+	3900 2475 3975 2475
+Wire Wire Line
+	3975 2475 3975 2100
+$Comp
+L GS3 J96
+U 1 1 592AB416
+P 3975 1950
+AR Path="/592A76E3/592AB416" Ref="J96"  Part="1" 
+AR Path="/592B2E53/592AB416" Ref="J99"  Part="1" 
+AR Path="/592B739F/592AB416" Ref="J102"  Part="1" 
+AR Path="/592B73A3/592AB416" Ref="J105"  Part="1" 
+AR Path="/592C46C7/592AB416" Ref="J108"  Part="1" 
+AR Path="/592C46CB/592AB416" Ref="J111"  Part="1" 
+AR Path="/592C46CF/592AB416" Ref="J114"  Part="1" 
+AR Path="/592C46D3/592AB416" Ref="J117"  Part="1" 
+F 0 "J117" H 4025 2150 50  0000 C CNN
+F 1 "GS3" H 4025 1751 50  0000 C CNN
+F 2 "Connectors:GS3" V 4063 1876 50  0001 C CNN
+F 3 "" H 3975 1950 50  0001 C CNN
+	1    3975 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR0120
+U 1 1 592AB479
+P 4075 1800
+AR Path="/592A76E3/592AB479" Ref="#PWR0120"  Part="1" 
+AR Path="/592B2E53/592AB479" Ref="#PWR0124"  Part="1" 
+AR Path="/592B739F/592AB479" Ref="#PWR0128"  Part="1" 
+AR Path="/592B73A3/592AB479" Ref="#PWR0132"  Part="1" 
+AR Path="/592C46C7/592AB479" Ref="#PWR0136"  Part="1" 
+AR Path="/592C46CB/592AB479" Ref="#PWR0140"  Part="1" 
+AR Path="/592C46CF/592AB479" Ref="#PWR0144"  Part="1" 
+AR Path="/592C46D3/592AB479" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 4075 1650 50  0001 C CNN
+F 1 "+5V" H 4075 1940 50  0000 C CNN
+F 2 "" H 4075 1800 50  0001 C CNN
+F 3 "" H 4075 1800 50  0001 C CNN
+	1    4075 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR0121
+U 1 1 592AB493
+P 3875 1800
+AR Path="/592A76E3/592AB493" Ref="#PWR0121"  Part="1" 
+AR Path="/592B2E53/592AB493" Ref="#PWR0125"  Part="1" 
+AR Path="/592B739F/592AB493" Ref="#PWR0129"  Part="1" 
+AR Path="/592B73A3/592AB493" Ref="#PWR0133"  Part="1" 
+AR Path="/592C46C7/592AB493" Ref="#PWR0137"  Part="1" 
+AR Path="/592C46CB/592AB493" Ref="#PWR0141"  Part="1" 
+AR Path="/592C46CF/592AB493" Ref="#PWR0145"  Part="1" 
+AR Path="/592C46D3/592AB493" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 3875 1650 50  0001 C CNN
+F 1 "+12V" H 3875 1940 50  0000 C CNN
+F 2 "" H 3875 1800 50  0001 C CNN
+F 3 "" H 3875 1800 50  0001 C CNN
+	1    3875 1800
+	1    0    0    -1  
+$EndComp
+Text HLabel 2000 1450 0    60   Input ~ 0
+CTL1
+Text HLabel 2000 1575 0    60   Input ~ 0
+CTL2
+Wire Wire Line
+	2000 1575 4325 1575
+Wire Wire Line
+	2750 1575 2750 2275
+Wire Wire Line
+	2750 2275 2650 2275
+Wire Wire Line
+	2650 2475 2850 2475
+Wire Wire Line
+	2850 2475 2850 1450
+Wire Wire Line
+	2000 1450 4450 1450
+Wire Wire Line
+	4450 1450 4450 2375
+Wire Wire Line
+	4450 2375 3900 2375
+Connection ~ 2850 1450
+Wire Wire Line
+	4325 1575 4325 2275
+Wire Wire Line
+	4325 2275 3900 2275
+Connection ~ 2750 1575
+$EndSCHEMATC

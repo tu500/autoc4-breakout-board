@@ -1,0 +1,400 @@
+EESchema Schematic File Version 2
+LIBS:own
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:autoc4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 25
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X04 J62
+U 1 1 5920E9CE
+P 2550 2300
+AR Path="/5926D26E/5920E9CE" Ref="J62"  Part="1" 
+AR Path="/5926D27C/5920E9CE" Ref="J64"  Part="1" 
+AR Path="/5926D28A/5920E9CE" Ref="J66"  Part="1" 
+AR Path="/5926D298/5920E9CE" Ref="J68"  Part="1" 
+AR Path="/5926D2A6/5920E9CE" Ref="J70"  Part="1" 
+AR Path="/5926D2B4/5920E9CE" Ref="J72"  Part="1" 
+AR Path="/5926D2C2/5920E9CE" Ref="J74"  Part="1" 
+AR Path="/5926D2D0/5920E9CE" Ref="J76"  Part="1" 
+AR Path="/5928B7C6/5920E9CE" Ref="J78"  Part="1" 
+AR Path="/5928B7CB/5920E9CE" Ref="J80"  Part="1" 
+AR Path="/5928B7D0/5920E9CE" Ref="J82"  Part="1" 
+AR Path="/5928B7D5/5920E9CE" Ref="J84"  Part="1" 
+AR Path="/5928B7DA/5920E9CE" Ref="J86"  Part="1" 
+AR Path="/5928B7DF/5920E9CE" Ref="J88"  Part="1" 
+AR Path="/5928B7E4/5920E9CE" Ref="J90"  Part="1" 
+AR Path="/5928B7E9/5920E9CE" Ref="J92"  Part="1" 
+F 0 "J64" H 2550 2550 50  0000 C CNN
+F 1 "CONN_01X04" V 2650 2300 50  0000 C CNN
+F 2 "ownlib:PSG_Straight_04" H 2550 2300 50  0001 C CNN
+F 3 "" H 2550 2300 50  0001 C CNN
+	1    2550 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 J63
+U 1 1 5920EA6E
+P 3875 2300
+AR Path="/5926D26E/5920EA6E" Ref="J63"  Part="1" 
+AR Path="/5926D27C/5920EA6E" Ref="J65"  Part="1" 
+AR Path="/5926D28A/5920EA6E" Ref="J67"  Part="1" 
+AR Path="/5926D298/5920EA6E" Ref="J69"  Part="1" 
+AR Path="/5926D2A6/5920EA6E" Ref="J71"  Part="1" 
+AR Path="/5926D2B4/5920EA6E" Ref="J73"  Part="1" 
+AR Path="/5926D2C2/5920EA6E" Ref="J75"  Part="1" 
+AR Path="/5926D2D0/5920EA6E" Ref="J77"  Part="1" 
+AR Path="/5928B7C6/5920EA6E" Ref="J79"  Part="1" 
+AR Path="/5928B7CB/5920EA6E" Ref="J81"  Part="1" 
+AR Path="/5928B7D0/5920EA6E" Ref="J83"  Part="1" 
+AR Path="/5928B7D5/5920EA6E" Ref="J85"  Part="1" 
+AR Path="/5928B7DA/5920EA6E" Ref="J87"  Part="1" 
+AR Path="/5928B7DF/5920EA6E" Ref="J89"  Part="1" 
+AR Path="/5928B7E4/5920EA6E" Ref="J91"  Part="1" 
+AR Path="/5928B7E9/5920EA6E" Ref="J93"  Part="1" 
+F 0 "J65" H 3875 2550 50  0000 C CNN
+F 1 "CONN_01X04" V 3975 2300 50  0000 C CNN
+F 2 "ownlib:PSG_Straight_04" H 3875 2300 50  0001 C CNN
+F 3 "" H 3875 2300 50  0001 C CNN
+	1    3875 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L AO3400A Q3
+U 1 1 5920EB32
+P 4075 2800
+AR Path="/5926D26E/5920EB32" Ref="Q3"  Part="1" 
+AR Path="/5926D27C/5920EB32" Ref="Q5"  Part="1" 
+AR Path="/5926D28A/5920EB32" Ref="Q7"  Part="1" 
+AR Path="/5926D298/5920EB32" Ref="Q9"  Part="1" 
+AR Path="/5926D2A6/5920EB32" Ref="Q11"  Part="1" 
+AR Path="/5926D2B4/5920EB32" Ref="Q13"  Part="1" 
+AR Path="/5926D2C2/5920EB32" Ref="Q15"  Part="1" 
+AR Path="/5926D2D0/5920EB32" Ref="Q17"  Part="1" 
+AR Path="/5928B7C6/5920EB32" Ref="Q19"  Part="1" 
+AR Path="/5928B7CB/5920EB32" Ref="Q21"  Part="1" 
+AR Path="/5928B7D0/5920EB32" Ref="Q23"  Part="1" 
+AR Path="/5928B7D5/5920EB32" Ref="Q25"  Part="1" 
+AR Path="/5928B7DA/5920EB32" Ref="Q27"  Part="1" 
+AR Path="/5928B7DF/5920EB32" Ref="Q29"  Part="1" 
+AR Path="/5928B7E4/5920EB32" Ref="Q31"  Part="1" 
+AR Path="/5928B7E9/5920EB32" Ref="Q33"  Part="1" 
+F 0 "Q5" H 4275 2875 50  0000 L CNN
+F 1 "AO3400A" H 4275 2800 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4275 2725 50  0001 L CIN
+F 3 "" H 4075 2800 50  0000 L CNN
+	1    4075 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 5920EBA7
+P 2975 3150
+AR Path="/5926D26E/5920EBA7" Ref="#PWR038"  Part="1" 
+AR Path="/5926D27C/5920EBA7" Ref="#PWR043"  Part="1" 
+AR Path="/5926D28A/5920EBA7" Ref="#PWR048"  Part="1" 
+AR Path="/5926D298/5920EBA7" Ref="#PWR053"  Part="1" 
+AR Path="/5926D2A6/5920EBA7" Ref="#PWR058"  Part="1" 
+AR Path="/5926D2B4/5920EBA7" Ref="#PWR063"  Part="1" 
+AR Path="/5926D2C2/5920EBA7" Ref="#PWR068"  Part="1" 
+AR Path="/5926D2D0/5920EBA7" Ref="#PWR073"  Part="1" 
+AR Path="/5928B7C6/5920EBA7" Ref="#PWR078"  Part="1" 
+AR Path="/5928B7CB/5920EBA7" Ref="#PWR083"  Part="1" 
+AR Path="/5928B7D0/5920EBA7" Ref="#PWR088"  Part="1" 
+AR Path="/5928B7D5/5920EBA7" Ref="#PWR093"  Part="1" 
+AR Path="/5928B7DA/5920EBA7" Ref="#PWR098"  Part="1" 
+AR Path="/5928B7DF/5920EBA7" Ref="#PWR0103"  Part="1" 
+AR Path="/5928B7E4/5920EBA7" Ref="#PWR0108"  Part="1" 
+AR Path="/5928B7E9/5920EBA7" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 2975 2900 50  0001 C CNN
+F 1 "GND" H 2975 3000 50  0000 C CNN
+F 2 "" H 2975 3150 50  0001 C CNN
+F 3 "" H 2975 3150 50  0001 C CNN
+	1    2975 3150
+	1    0    0    -1  
+$EndComp
+Text HLabel 1900 1600 0    60   Input ~ 0
+VCC
+Wire Wire Line
+	2750 2450 2975 2450
+Wire Wire Line
+	2975 2450 2975 3150
+Wire Wire Line
+	2750 2350 2975 2350
+Wire Wire Line
+	2975 2350 2975 1600
+Wire Wire Line
+	1900 1600 4400 1600
+Wire Wire Line
+	4400 1600 4400 2350
+Wire Wire Line
+	4400 2150 4075 2150
+Connection ~ 2975 1600
+Wire Wire Line
+	4400 2350 4075 2350
+Connection ~ 4400 2150
+Wire Wire Line
+	2750 2150 2875 2150
+Wire Wire Line
+	2875 2150 2875 1750
+Wire Wire Line
+	2875 1750 1900 1750
+Wire Wire Line
+	2750 2250 2800 2250
+Wire Wire Line
+	2800 2250 2800 1900
+Wire Wire Line
+	2800 1900 1900 1900
+Text HLabel 1900 1750 0    60   Input ~ 0
+CTL2
+Text HLabel 1900 1900 0    60   Input ~ 0
+CTL1
+$Comp
+L AO3400A Q4
+U 1 1 5920F0F4
+P 5250 2800
+AR Path="/5926D26E/5920F0F4" Ref="Q4"  Part="1" 
+AR Path="/5926D27C/5920F0F4" Ref="Q6"  Part="1" 
+AR Path="/5926D28A/5920F0F4" Ref="Q8"  Part="1" 
+AR Path="/5926D298/5920F0F4" Ref="Q10"  Part="1" 
+AR Path="/5926D2A6/5920F0F4" Ref="Q12"  Part="1" 
+AR Path="/5926D2B4/5920F0F4" Ref="Q14"  Part="1" 
+AR Path="/5926D2C2/5920F0F4" Ref="Q16"  Part="1" 
+AR Path="/5926D2D0/5920F0F4" Ref="Q18"  Part="1" 
+AR Path="/5928B7C6/5920F0F4" Ref="Q20"  Part="1" 
+AR Path="/5928B7CB/5920F0F4" Ref="Q22"  Part="1" 
+AR Path="/5928B7D0/5920F0F4" Ref="Q24"  Part="1" 
+AR Path="/5928B7D5/5920F0F4" Ref="Q26"  Part="1" 
+AR Path="/5928B7DA/5920F0F4" Ref="Q28"  Part="1" 
+AR Path="/5928B7DF/5920F0F4" Ref="Q30"  Part="1" 
+AR Path="/5928B7E4/5920F0F4" Ref="Q32"  Part="1" 
+AR Path="/5928B7E9/5920F0F4" Ref="Q34"  Part="1" 
+F 0 "Q6" H 5450 2875 50  0000 L CNN
+F 1 "AO3400A" H 5450 2800 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5450 2725 50  0001 L CIN
+F 3 "" H 5250 2800 50  0000 L CNN
+	1    5250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5920F16A
+P 3875 3000
+AR Path="/5926D26E/5920F16A" Ref="R3"  Part="1" 
+AR Path="/5926D27C/5920F16A" Ref="R5"  Part="1" 
+AR Path="/5926D28A/5920F16A" Ref="R7"  Part="1" 
+AR Path="/5926D298/5920F16A" Ref="R9"  Part="1" 
+AR Path="/5926D2A6/5920F16A" Ref="R11"  Part="1" 
+AR Path="/5926D2B4/5920F16A" Ref="R13"  Part="1" 
+AR Path="/5926D2C2/5920F16A" Ref="R15"  Part="1" 
+AR Path="/5926D2D0/5920F16A" Ref="R17"  Part="1" 
+AR Path="/5928B7C6/5920F16A" Ref="R19"  Part="1" 
+AR Path="/5928B7CB/5920F16A" Ref="R21"  Part="1" 
+AR Path="/5928B7D0/5920F16A" Ref="R23"  Part="1" 
+AR Path="/5928B7D5/5920F16A" Ref="R25"  Part="1" 
+AR Path="/5928B7DA/5920F16A" Ref="R27"  Part="1" 
+AR Path="/5928B7DF/5920F16A" Ref="R29"  Part="1" 
+AR Path="/5928B7E4/5920F16A" Ref="R31"  Part="1" 
+AR Path="/5928B7E9/5920F16A" Ref="R33"  Part="1" 
+F 0 "R5" V 3955 3000 50  0000 C CNN
+F 1 "100k" V 3875 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3805 3000 50  0001 C CNN
+F 3 "" H 3875 3000 50  0001 C CNN
+	1    3875 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5920F1CB
+P 5050 3000
+AR Path="/5926D26E/5920F1CB" Ref="R4"  Part="1" 
+AR Path="/5926D27C/5920F1CB" Ref="R6"  Part="1" 
+AR Path="/5926D28A/5920F1CB" Ref="R8"  Part="1" 
+AR Path="/5926D298/5920F1CB" Ref="R10"  Part="1" 
+AR Path="/5926D2A6/5920F1CB" Ref="R12"  Part="1" 
+AR Path="/5926D2B4/5920F1CB" Ref="R14"  Part="1" 
+AR Path="/5926D2C2/5920F1CB" Ref="R16"  Part="1" 
+AR Path="/5926D2D0/5920F1CB" Ref="R18"  Part="1" 
+AR Path="/5928B7C6/5920F1CB" Ref="R20"  Part="1" 
+AR Path="/5928B7CB/5920F1CB" Ref="R22"  Part="1" 
+AR Path="/5928B7D0/5920F1CB" Ref="R24"  Part="1" 
+AR Path="/5928B7D5/5920F1CB" Ref="R26"  Part="1" 
+AR Path="/5928B7DA/5920F1CB" Ref="R28"  Part="1" 
+AR Path="/5928B7DF/5920F1CB" Ref="R30"  Part="1" 
+AR Path="/5928B7E4/5920F1CB" Ref="R32"  Part="1" 
+AR Path="/5928B7E9/5920F1CB" Ref="R34"  Part="1" 
+F 0 "R6" V 5130 3000 50  0000 C CNN
+F 1 "100k" V 5050 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4980 3000 50  0001 C CNN
+F 3 "" H 5050 3000 50  0001 C CNN
+	1    5050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4075 2450 4175 2450
+Wire Wire Line
+	4175 2450 4175 2600
+Wire Wire Line
+	4075 2250 5350 2250
+Wire Wire Line
+	5350 2250 5350 2600
+$Comp
+L GND #PWR039
+U 1 1 5920FAC3
+P 3875 3150
+AR Path="/5926D26E/5920FAC3" Ref="#PWR039"  Part="1" 
+AR Path="/5926D27C/5920FAC3" Ref="#PWR044"  Part="1" 
+AR Path="/5926D28A/5920FAC3" Ref="#PWR049"  Part="1" 
+AR Path="/5926D298/5920FAC3" Ref="#PWR054"  Part="1" 
+AR Path="/5926D2A6/5920FAC3" Ref="#PWR059"  Part="1" 
+AR Path="/5926D2B4/5920FAC3" Ref="#PWR064"  Part="1" 
+AR Path="/5926D2C2/5920FAC3" Ref="#PWR069"  Part="1" 
+AR Path="/5926D2D0/5920FAC3" Ref="#PWR074"  Part="1" 
+AR Path="/5928B7C6/5920FAC3" Ref="#PWR079"  Part="1" 
+AR Path="/5928B7CB/5920FAC3" Ref="#PWR084"  Part="1" 
+AR Path="/5928B7D0/5920FAC3" Ref="#PWR089"  Part="1" 
+AR Path="/5928B7D5/5920FAC3" Ref="#PWR094"  Part="1" 
+AR Path="/5928B7DA/5920FAC3" Ref="#PWR099"  Part="1" 
+AR Path="/5928B7DF/5920FAC3" Ref="#PWR0104"  Part="1" 
+AR Path="/5928B7E4/5920FAC3" Ref="#PWR0109"  Part="1" 
+AR Path="/5928B7E9/5920FAC3" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 3875 2900 50  0001 C CNN
+F 1 "GND" H 3875 3000 50  0000 C CNN
+F 2 "" H 3875 3150 50  0001 C CNN
+F 3 "" H 3875 3150 50  0001 C CNN
+	1    3875 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 5920FAE0
+P 4175 3150
+AR Path="/5926D26E/5920FAE0" Ref="#PWR040"  Part="1" 
+AR Path="/5926D27C/5920FAE0" Ref="#PWR045"  Part="1" 
+AR Path="/5926D28A/5920FAE0" Ref="#PWR050"  Part="1" 
+AR Path="/5926D298/5920FAE0" Ref="#PWR055"  Part="1" 
+AR Path="/5926D2A6/5920FAE0" Ref="#PWR060"  Part="1" 
+AR Path="/5926D2B4/5920FAE0" Ref="#PWR065"  Part="1" 
+AR Path="/5926D2C2/5920FAE0" Ref="#PWR070"  Part="1" 
+AR Path="/5926D2D0/5920FAE0" Ref="#PWR075"  Part="1" 
+AR Path="/5928B7C6/5920FAE0" Ref="#PWR080"  Part="1" 
+AR Path="/5928B7CB/5920FAE0" Ref="#PWR085"  Part="1" 
+AR Path="/5928B7D0/5920FAE0" Ref="#PWR090"  Part="1" 
+AR Path="/5928B7D5/5920FAE0" Ref="#PWR095"  Part="1" 
+AR Path="/5928B7DA/5920FAE0" Ref="#PWR0100"  Part="1" 
+AR Path="/5928B7DF/5920FAE0" Ref="#PWR0105"  Part="1" 
+AR Path="/5928B7E4/5920FAE0" Ref="#PWR0110"  Part="1" 
+AR Path="/5928B7E9/5920FAE0" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 4175 2900 50  0001 C CNN
+F 1 "GND" H 4175 3000 50  0000 C CNN
+F 2 "" H 4175 3150 50  0001 C CNN
+F 3 "" H 4175 3150 50  0001 C CNN
+	1    4175 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 3150 4175 3000
+$Comp
+L GND #PWR041
+U 1 1 5920FB19
+P 5050 3150
+AR Path="/5926D26E/5920FB19" Ref="#PWR041"  Part="1" 
+AR Path="/5926D27C/5920FB19" Ref="#PWR046"  Part="1" 
+AR Path="/5926D28A/5920FB19" Ref="#PWR051"  Part="1" 
+AR Path="/5926D298/5920FB19" Ref="#PWR056"  Part="1" 
+AR Path="/5926D2A6/5920FB19" Ref="#PWR061"  Part="1" 
+AR Path="/5926D2B4/5920FB19" Ref="#PWR066"  Part="1" 
+AR Path="/5926D2C2/5920FB19" Ref="#PWR071"  Part="1" 
+AR Path="/5926D2D0/5920FB19" Ref="#PWR076"  Part="1" 
+AR Path="/5928B7C6/5920FB19" Ref="#PWR081"  Part="1" 
+AR Path="/5928B7CB/5920FB19" Ref="#PWR086"  Part="1" 
+AR Path="/5928B7D0/5920FB19" Ref="#PWR091"  Part="1" 
+AR Path="/5928B7D5/5920FB19" Ref="#PWR096"  Part="1" 
+AR Path="/5928B7DA/5920FB19" Ref="#PWR0101"  Part="1" 
+AR Path="/5928B7DF/5920FB19" Ref="#PWR0106"  Part="1" 
+AR Path="/5928B7E4/5920FB19" Ref="#PWR0111"  Part="1" 
+AR Path="/5928B7E9/5920FB19" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5050 2900 50  0001 C CNN
+F 1 "GND" H 5050 3000 50  0000 C CNN
+F 2 "" H 5050 3150 50  0001 C CNN
+F 3 "" H 5050 3150 50  0001 C CNN
+	1    5050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR042
+U 1 1 5920FB36
+P 5350 3150
+AR Path="/5926D26E/5920FB36" Ref="#PWR042"  Part="1" 
+AR Path="/5926D27C/5920FB36" Ref="#PWR047"  Part="1" 
+AR Path="/5926D28A/5920FB36" Ref="#PWR052"  Part="1" 
+AR Path="/5926D298/5920FB36" Ref="#PWR057"  Part="1" 
+AR Path="/5926D2A6/5920FB36" Ref="#PWR062"  Part="1" 
+AR Path="/5926D2B4/5920FB36" Ref="#PWR067"  Part="1" 
+AR Path="/5926D2C2/5920FB36" Ref="#PWR072"  Part="1" 
+AR Path="/5926D2D0/5920FB36" Ref="#PWR077"  Part="1" 
+AR Path="/5928B7C6/5920FB36" Ref="#PWR082"  Part="1" 
+AR Path="/5928B7CB/5920FB36" Ref="#PWR087"  Part="1" 
+AR Path="/5928B7D0/5920FB36" Ref="#PWR092"  Part="1" 
+AR Path="/5928B7D5/5920FB36" Ref="#PWR097"  Part="1" 
+AR Path="/5928B7DA/5920FB36" Ref="#PWR0102"  Part="1" 
+AR Path="/5928B7DF/5920FB36" Ref="#PWR0107"  Part="1" 
+AR Path="/5928B7E4/5920FB36" Ref="#PWR0112"  Part="1" 
+AR Path="/5928B7E9/5920FB36" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 5350 2900 50  0001 C CNN
+F 1 "GND" H 5350 3000 50  0000 C CNN
+F 2 "" H 5350 3150 50  0001 C CNN
+F 3 "" H 5350 3150 50  0001 C CNN
+	1    5350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3150 5350 3000
+Wire Wire Line
+	5050 2850 4925 2850
+Wire Wire Line
+	3875 2850 3725 2850
+Text Label 3725 2850 2    60   ~ 0
+CTL1
+Text Label 4925 2850 2    60   ~ 0
+CTL2
+$EndSCHEMATC
