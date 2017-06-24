@@ -1,0 +1,10 @@
+To fix in rev 2, if there should ever be one:
+
+* more space for elkos
+* onewire header
+* sense pin for fan
+* pcb labelling (pcbname, revision)
+* zero-based cc indices
+* 100nF for rs485 transceivers
+* swap CCA/passive gpio pins
+* smd flyback diodes?
